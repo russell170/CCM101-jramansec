@@ -1,6 +1,7 @@
 CCM101 Cloud Computing Portfolio
 
 About Me
+
 I'm John Russel Amansec, and currently pursuing Bachelor of Science in Information Technology
 at University of Eastern Pangasinan. This respository serves as Cloud Computing Portfolio.
 
