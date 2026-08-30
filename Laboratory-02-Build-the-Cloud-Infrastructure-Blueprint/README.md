@@ -63,11 +63,11 @@ User
   ↓
 Internet
   ↓
-Cloud Network
-  ↓
-Compute Resource
+Compute Machine
   ↓
 Storage Resource
+  ↓
+Security Group / Firewall
 ```
 
 The diagram is saved as:
