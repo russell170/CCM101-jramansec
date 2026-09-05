@@ -62,3 +62,14 @@
 * **Amazon RDS** – Provides a managed relational database for products, orders, customers, and transactions.
 * **Amazon CloudFront** – Delivers website content to customers through a global content delivery network.
 * **Amazon EC2 Auto Scaling** – Automatically increases or decreases computing capacity based on application demand.
+
+## Cloud Platform Decision Matrix (Checkpoint 6)
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| **Startup Company** | AWS | AWS provides a wide range of services that can support startups as they grow. It offers scalable computing, storage, databases, and serverless services that can help control infrastructure costs while supporting future expansion. |
+| **Enterprise Organization** | AWS | AWS provides a broad selection of cloud services for large organizations. It can support complex workloads involving computing, databases, networking, security, analytics, and storage. |
+| **Microsoft Environment** | Microsoft Azure | Azure is recommended for organizations that heavily use Microsoft technologies. It provides strong integration with Windows Server, Microsoft 365, Active Directory, and Microsoft Entra ID. |
+| **AI / Machine Learning** | Google Cloud | Google Cloud is a strong choice for AI and machine learning workloads. It provides services such as Vertex AI, Compute Engine, GPUs, TPUs, and Cloud Storage for developing and running AI applications. |
+| **Kubernetes Deployment** | Google Cloud | Google Cloud provides Google Kubernetes Engine (GKE), a managed Kubernetes service designed for deploying, managing, and scaling containerized applications. |
+| **Global Web Application** | AWS | AWS is suitable for global web applications because it provides a large global infrastructure and services for scalability, availability, load balancing, storage, and content delivery. |
