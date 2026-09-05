@@ -2,49 +2,63 @@
 
 ## Client A – Startup Company
 
-**Recommended Platform:** AWS
+### Recommended Platform: AWS
 
-AWS is recommended because the startup has a limited budget but expects rapid growth. AWS provides scalable services that allow the company to start small and increase resources as its application grows. Amazon EC2 provides scalable computing, while AWS Lambda can run application functions without managing servers.
+**AWS** is recommended for the startup because it offers a wide range of cloud services that can support a mobile application from its initial development stage to future expansion. Since the startup has a limited budget, it can begin with smaller cloud resources and increase them as the number of users grows, helping avoid the cost of maintaining expensive physical servers. AWS also provides serverless and managed services that can reduce the amount of infrastructure the development team needs to manage. This makes AWS a flexible choice for a startup that needs to control costs while preparing for rapid growth. *(4 sentences)*
 
 **Recommended Services:**
-- Amazon EC2 – Virtual servers for the mobile application
-- Amazon S3 – Storage for application files and data
-- AWS Lambda – Serverless application functions
-- Amazon RDS – Managed relational database
+
+* **Amazon EC2** – Provides virtual servers for hosting the mobile application's backend and other application workloads.
+* **Amazon S3** – Stores images, documents, backups, and other application files.
+* **AWS Lambda** – Runs application functions without requiring the startup to manage servers directly.
+* **Amazon RDS** – Provides a managed relational database for storing application and user data.
+* **Amazon CloudFront** – Helps deliver application content faster to users in different locations.
+
+---
 
 ## Client B – University
 
-**Recommended Platform:** Microsoft Azure
+### Recommended Platform: Microsoft Azure
 
-Azure is the recommended platform because the university already uses Windows Server, Microsoft 365, and Active Directory. Azure provides strong integration with Microsoft technologies and supports hybrid identity through Microsoft Entra ID. This can make it easier for the university to migrate existing services while continuing to use its current Microsoft environment.
+**Microsoft Azure** is the best recommendation for the university because it already uses Windows Server, Microsoft 365, and Active Directory. Azure is designed to work closely with Microsoft technologies, making it easier to connect existing systems with cloud-based services. The university can migrate selected workloads gradually instead of moving everything at once, which can reduce disruption to students, faculty, and staff. Azure can also provide centralized identity and access management while supporting the university's existing Microsoft environment. *(4 sentences)*
 
 **Recommended Services:**
-- Azure Virtual Machines – Host Windows Server workloads
-- Microsoft Entra ID – Manage identities and access
-- Azure Virtual Network – Connect and secure cloud resources
-- Azure Blob Storage – Store files and data
+
+* **Azure Virtual Machines** – Hosts existing Windows Server applications and workloads in the cloud.
+* **Microsoft Entra ID** – Provides identity and access management for students, faculty, staff, and applications.
+* **Azure Virtual Network** – Creates secure network connections between cloud resources and existing university systems.
+* **Azure Blob Storage** – Stores documents, academic files, backups, and other unstructured data.
+* **Azure SQL Database** – Provides a managed database service for university applications.
+
+---
 
 ## Client C – AI Research Company
 
-**Recommended Platform:** Google Cloud
+### Recommended Platform: Google Cloud
 
-Google Cloud is recommended because the company focuses on Artificial Intelligence, Machine Learning, and high-performance computing. Google Cloud provides specialized GPUs and TPUs for AI workloads and supports HPC through Compute Engine. These resources can help researchers train models and perform demanding computational workloads.
+**Google Cloud** is recommended for the AI research company because its requirements focus heavily on Artificial Intelligence, Machine Learning, and high-performance computing. AI research often requires significant computing power for activities such as training machine learning models, processing large datasets, and running experiments. Google Cloud provides infrastructure and services designed for AI and machine learning workloads, including specialized accelerators such as GPUs and TPUs. It also provides managed AI tools that can help researchers develop, train, evaluate, and deploy machine learning models. *(4 sentences)*
 
 **Recommended Services:**
-- Compute Engine – High-performance virtual machines
-- Cloud GPUs/TPUs – Accelerate AI and ML workloads
-- Vertex AI – Develop and deploy AI/ML models
-- Cloud Storage – Store datasets and research files
+
+* **Compute Engine** – Provides configurable virtual machines for high-performance computing workloads.
+* **Google Cloud GPUs** – Provides GPU resources that can accelerate AI and machine learning computations.
+* **Google Cloud TPUs** – Specialized hardware designed to accelerate certain machine learning workloads.
+* **Vertex AI** – Provides tools for developing, training, deploying, and managing machine learning models.
+* **Cloud Storage** – Stores large datasets, research files, trained models, and experiment results.
+
+---
 
 ## Client D – Global E-Commerce Company
 
-**Recommended Platform:** AWS
+### Recommended Platform: AWS
 
-AWS is recommended because the company serves customers globally and requires high availability and automatic scaling. AWS provides a large global infrastructure with multiple Regions and Availability Zones, helping applications remain available and resilient. Services such as Amazon EC2, Elastic Load Balancing, and Amazon S3 can support a scalable global e-commerce application.
+**AWS** is recommended for the global e-commerce company because it needs highly available infrastructure that can serve customers from different parts of the world. An online shopping platform may experience sudden increases in traffic during promotions, holidays, or special events, so the infrastructure must be able to automatically scale when demand increases. AWS provides multiple Regions and Availability Zones that can help organizations design highly available applications. Combining compute, load balancing, storage, database, and content delivery services can create a scalable architecture capable of supporting a global customer base. *(4 sentences)*
 
 **Recommended Services:**
-- Amazon EC2 – Run the e-commerce application
-- Elastic Load Balancing – Distribute traffic across servers
-- Amazon S3 – Store images, files, and static content
-- Amazon RDS – Manage the application's relational database
-- Amazon CloudFront – Deliver content to global customers
+
+* **Amazon EC2** – Runs the e-commerce website, backend services, and application workloads.
+* **Elastic Load Balancing** – Distributes incoming traffic across multiple application servers.
+* **Amazon S3** – Stores product images, documents, backups, and static website content.
+* **Amazon RDS** – Provides a managed relational database for products, orders, customers, and transactions.
+* **Amazon CloudFront** – Delivers website content to customers through a global content delivery network.
+* **Amazon EC2 Auto Scaling** – Automatically increases or decreases computing capacity based on application demand.
