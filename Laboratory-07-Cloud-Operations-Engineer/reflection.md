@@ -1,0 +1,9 @@
+# Mission Reflection – Laboratory 07
+
+Checking the host server's resources is important even when every container looks healthy, because containers share the host's CPU, memory, disk, and kernel. If the host runs out of disk space or RAM, all of the containers on it can slow down or crash. In this lab, the memory limit shown by `docker stats` matched the host's RAM, which showed me that containers depend on the host they run on.
+
+Monitoring also helps when something goes wrong. If a user cannot log into a web application, the `docker logs` command would let me see the requests the application received and any errors it recorded around the time of the complaint. I could look for status codes such as 401, 403, or 500 and read the error messages to find the cause instead of guessing, just as I found my failed request in the Nginx logs. This is where logs and metrics differ. Logs are records of individual events, such as a request returning a 404, and they explain what happened. Metrics, such as the CPU percentage and memory usage from `docker stats`, are measurements that show how the system is performing. Logs help investigate problems, while metrics help detect warning signs.
+
+At a larger scale, companies cannot watch thousands of containers by hand, so they use monitoring tools. Prometheus can automatically collect metrics from many containers and store them in one place, while Grafana can display that data in dashboards and send alerts when something goes wrong. Logs are often gathered centrally too, which makes them easier to search.
+
+Finally, this lab and the earlier ones have improved my ability to troubleshoot Linux environments. I am more comfortable reading terminal output and error messages, and I fixed problems such as a command not being recognized and a Docker image that could not be pulled. I now check logs and outputs first and try different commands when the first one does not show what I expected.
