@@ -1,0 +1,11 @@
+# Mission 8 Reflection: The Cloud Security Engineer
+
+Completing this mission helped me understand that running a web application is not enough; the server must also be protected. A host-based firewall adds security directly on the server. Even if an outside network's security is breached, the firewall can still restrict connections according to its own rules and block traffic that has not been explicitly allowed.
+
+Managing open network ports is important because every open port may provide an entry point to a service. If unnecessary ports remain accessible, attackers have more opportunities to discover and exploit weaknesses. Allowing only the ports required for the application follows the principle of least privilege and reduces the server's attack surface.
+
+Leaving a database port such as MySQL's port 3306 open to the public internet is dangerous because unknown users could repeatedly attempt to connect to the database. If the database has weak credentials, an unpatched vulnerability, or incorrect permissions, an attacker could access, change, or steal sensitive information. Database access should be limited to trusted application servers and authorized administrators rather than exposed to everyone.
+
+Before this activity, I mainly thought about whether a service was working. Now I understand that a working service can still be insecure when its network access is not controlled. Setting UFW to deny incoming traffic by default, allowing SSH before enabling the firewall, and then opening port 8080 only when needed showed me how deliberate firewall rules improve security.
+
+My GitHub portfolio is becoming a more organized record of the cloud computing skills I have practiced. Adding the eighth mission, its Markdown reports, and screenshots makes it easier to demonstrate each task and review what I learned. I also see the importance of keeping documentation accurate and pushing changes after each checkpoint. Overall, this mission taught me to consider security as part of deployment, not as a step to complete only after a problem occurs.
