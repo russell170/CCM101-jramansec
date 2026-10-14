@@ -4,7 +4,7 @@ Completing this mission helped me understand why automation is important in clou
 
 However, automation also has risks. A destructive typo or an incorrect command in a script could delete important files or cause problems across hundreds or even thousands of servers. To reduce these risks, engineers should test scripts in a safe environment, review the code carefully, maintain backups, and monitor automated tasks before deploying them on a large scale.
 
-Writing a Bash script was different from creating a Docker Compose YAML file in Mission 6. A Bash script contains commands that execute step by step to perform tasks, such as creating folders and compressing files. Docker Compose uses YAML to describe and configure services, including containers, ports, and other settings. Both tools simplify cloud operations, but they serve different purposes.
+Writing a Bash script was different from creating a Docker Compose YAML file. The Bash script contains commands that execute step by step to perform tasks, such as creating folders and compressing files. Docker Compose uses YAML to describe and configure services, including containers, ports, and other settings. Both tools simplify cloud operations, but they serve different purposes.
 
 Reviewing my GitHub portfolio from Laboratory 1 to Laboratory 9 shows how my understanding of cloud computing has developed. I have progressed from learning cloud concepts to practicing deployment, containerization, monitoring, security, and automation. I also learned the importance of documenting my work and maintaining an organized portfolio through GitHub.
 
