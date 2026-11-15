@@ -24,8 +24,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Manila
-      - APP_URL=http:/192.168.0.46
-      - APP_KEY=base64:o/GXOaMX1S5c3Slg2l3rZNTSg2m0bxXnLQOdKMLoFq8=
+      - APP_URL=http://192.168.100.38
+      - APP_KEY=base64:8yYVQ99lOC0WlEHtwoc7CND2zjlNKTIQdNDRRebMIn0=
       - DB_HOST=bookstack_db
       - DB_PORT=3306
       - DB_USERNAME=bookstack_user
